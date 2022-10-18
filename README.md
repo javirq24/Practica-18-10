@@ -1,5 +1,9 @@
 This Dockerfile builds an image based on the `amazoncorretto:19-alpine-jdk` image from [Docker Hub](https://hub.docker.com). When you start the container, Docker copies the contents of your project's output directory (in this case, the main class `HelloWorld.class` from `./out`) to the `/tmp` directory in the container. Then Docker runs the java `HelloWorld` command from inside the `/tmp` directory. As a result, you should see `Hello, World!` printed to the container log.
 
+## javi el chico mesa
+### el otro dia la cristi tuvo que cuidarlo de nuevo
+
+
 ## Build
 
 Use Java to build the `HelloWorld.class` file in the `./out` directory:
